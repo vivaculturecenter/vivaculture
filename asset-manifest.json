@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/vivaculture/static/css/main.f855e6bc.css",
-    "main.js": "/vivaculture/static/js/main.75af527f.js",
-    "static/js/453.aacf03c8.chunk.js": "/vivaculture/static/js/453.aacf03c8.chunk.js",
-    "static/media/logo.svg": "/vivaculture/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/vivaculture/static/css/main.e6c13ad2.css",
+    "main.js": "/vivaculture/static/js/main.680f3221.js",
+    "static/js/453.b66b0ba1.chunk.js": "/vivaculture/static/js/453.b66b0ba1.chunk.js",
+    "static/media/viva.png": "/vivaculture/static/media/viva.15d3e153372af0f2552e.png",
+    "static/media/logo.png": "/vivaculture/static/media/logo.c90947d71844ab90d7bf.png",
+    "static/media/circle-v-red.png": "/vivaculture/static/media/circle-v-red.11bc0c0f44bd33d87ffe.png",
     "index.html": "/vivaculture/index.html",
-    "main.f855e6bc.css.map": "/vivaculture/static/css/main.f855e6bc.css.map",
-    "main.75af527f.js.map": "/vivaculture/static/js/main.75af527f.js.map",
-    "453.aacf03c8.chunk.js.map": "/vivaculture/static/js/453.aacf03c8.chunk.js.map"
+    "main.e6c13ad2.css.map": "/vivaculture/static/css/main.e6c13ad2.css.map",
+    "main.680f3221.js.map": "/vivaculture/static/js/main.680f3221.js.map",
+    "453.b66b0ba1.chunk.js.map": "/vivaculture/static/js/453.b66b0ba1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.75af527f.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.680f3221.js"
   ]
 }
