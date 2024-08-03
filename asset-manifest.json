@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/vivaculture/static/css/main.e6c13ad2.css",
-    "main.js": "/vivaculture/static/js/main.b8b66a16.js",
+    "main.js": "/vivaculture/static/js/main.a61f25ba.js",
     "static/js/453.b66b0ba1.chunk.js": "/vivaculture/static/js/453.b66b0ba1.chunk.js",
     "static/media/viva.png": "/vivaculture/static/media/viva.15d3e153372af0f2552e.png",
     "static/media/logo.png": "/vivaculture/static/media/logo.c90947d71844ab90d7bf.png",
     "static/media/circle-v-red.png": "/vivaculture/static/media/circle-v-red.11bc0c0f44bd33d87ffe.png",
     "index.html": "/vivaculture/index.html",
     "main.e6c13ad2.css.map": "/vivaculture/static/css/main.e6c13ad2.css.map",
-    "main.b8b66a16.js.map": "/vivaculture/static/js/main.b8b66a16.js.map",
+    "main.a61f25ba.js.map": "/vivaculture/static/js/main.a61f25ba.js.map",
     "453.b66b0ba1.chunk.js.map": "/vivaculture/static/js/453.b66b0ba1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.b8b66a16.js"
+    "static/js/main.a61f25ba.js"
   ]
 }
