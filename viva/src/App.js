@@ -45,7 +45,7 @@ function App() {
       md: '1.75rem', // fontSize for medium screens
       lg: '2rem', // fontSize for large screens
     },
-     fontFamily: 'Archivo'
+     fontFamily: 'Tajawal'
   }}
 >
 <br /> بنستهدف المتعة والإحترافية في رحلتنا معاك لتعلم اللغة
