@@ -34,7 +34,7 @@ function App() {
      fontFamily: 'ROBOTO'
   }}
 >
-      Bienvenido a Viva
+      Bienvenidos a Viva
       </Typography>
       <Typography
   variant="h5"
