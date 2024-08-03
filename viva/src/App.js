@@ -34,7 +34,7 @@ function App() {
      fontFamily: 'ROBOTO'
   }}
 >
-      WLECOME TO VIVA
+      Bienvenido a Viva
       </Typography>
       <Typography
   variant="h5"
@@ -48,10 +48,8 @@ function App() {
      fontFamily: 'Archivo'
   }}
 >
-Welcome to a world of limitless possibilities, 
-where the journey is <br />as exhilarating as the destination, 
-and where every moment<br /> is an opportunity to make your mark on the canvas of existence.<br />
- The only limit is the extent of your imagination.
+<br /> بنستهدف المتعة والإحترافية في رحلتنا معاك لتعلم اللغة
+بيبا مركز ثقافي هدفة تعليم اللغة في رحلة شيقة بيبني فيها مجتمعه الصغير معاك 
       </Typography>
      
       </Box>
