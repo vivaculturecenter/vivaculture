@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
 import { collection, addDoc } from 'firebase/firestore';
-import { db } from './firebase' 
+import { db } from './firebase'; 
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import { TextField } from '@mui/material';
-
+import TextField from '@mui/material/TextField';
 
 export default function OutlinedCard() {
   const [name, setName] = useState('');
@@ -54,9 +53,12 @@ export default function OutlinedCard() {
   };
 
   const handleSubmit = async (event) => {
+    console.log('in hANDLE ');
     event.preventDefault();
+    console.log('after prevent'); // Check if this line is logged
     if (validateForm()) {
       try {
+        console.log('i am in try')
         await addDoc(collection(db, 'contacts'), {
           name,
           email,
@@ -70,11 +72,9 @@ export default function OutlinedCard() {
         console.error('Error adding document: ', error);
         alert('Error saving data');
       }
-  
       console.log('Form Submitted', { name, phone, email });
     }
   };
-  
 
   return (
     <Box 
@@ -83,12 +83,10 @@ export default function OutlinedCard() {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        // Full viewport height
-        overflow: 'hidden', // Ensure background image doesn’t overflow
+        overflow: 'hidden',
         padding: 2,
       }}
     >
-
       <Card
         variant="outlined"
         sx={{
@@ -97,7 +95,7 @@ export default function OutlinedCard() {
           padding: 2,
           backgroundColor: 'rgba(255, 255, 255, 0.5)',
           position: 'relative',
-          zIndex: 1, // Ensure card is above the background image
+          zIndex: 1,
         }}
       >
         <CardContent>
@@ -112,10 +110,9 @@ export default function OutlinedCard() {
               margin="dense"
               fullWidth
               value={name}
-              onChange={(e)=>setName(e.target.value)}
+              onChange={(e) => setName(e.target.value)}
               error={errors.name}
-        helperText={helperTexts.name}
-              
+              helperText={helperTexts.name}
             /><br />
             <TextField
               id="phone-number"
@@ -124,11 +121,10 @@ export default function OutlinedCard() {
               margin="dense"
               fullWidth
               value={phone}
-              onChange={(e)=>setPhone(e.target.value)}
+              onChange={(e) => setPhone(e.target.value)}
               error={errors.phone}
               helperText={helperTexts.phone}
               inputProps={{ inputMode: 'numeric' }}
-              
             /><br />
             <TextField
               id="email"
@@ -137,9 +133,9 @@ export default function OutlinedCard() {
               margin="dense"
               fullWidth
               value={email}
-              onChange={(e)=>setEmail(e.target.value)}
+              onChange={(e) => setEmail(e.target.value)}
               error={errors.email}
-        helperText={helperTexts.email}
+              helperText={helperTexts.email}
             />
             <CardActions sx={{ justifyContent: 'flex-end' }}>
               <Button
